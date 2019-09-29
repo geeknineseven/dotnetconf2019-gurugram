@@ -1,0 +1,60 @@
+live share
+	1. Create the link by clicking on the live share icon
+	2. Say CTRL + Q and Join Live Share Session. You can also join through VS Code
+
+Code Fixes and Refactorings
+	1. Sync Namespace
+		1.1 Create a folder
+		1.2 Create a class outside the folder
+		1.3 Now Move that file to that folder. Now you can sync namespace by saying CTRL + .
+	2. Switch Expressions
+		Switch Statement can be converted into switch expression. That is the part of C# 8.0
+	3. Completion for unimported types
+		Newtonsoft getting by clicking on the plus sign
+	4. Generate Parameter
+		We can generate the parameter for the function when we are in the function for the same function we can create
+	5. Toggle single line and block Comments
+	   CTRL+ Shift + / for the multiline comment
+	   CTRL + K + / for the single line comment
+    6. Wrap call chain
+    7. Splitting and merging if statements
+    	Note : This can be done from only && and again merge from second if 
+    8. Sort Usings back!
+    	CTRL+Q and search sort usings
+    9. Usings Inside/Outside a namespace
+    	You can using "Move misplaced using directives" by pressing ctrl+. just after last using statement of the namespace. 
+    	Note : we can also configure all of that in my code styles
+    		9.1 CTRL+Q
+    		9.2 Code Styles
+    		9.3 I can set my using preferences
+    10. Type in multiple places
+
+Note : All these code fixes and refactories power through the Analyzers 
+
+
+Analyzers
+	.NET Compiler Platform ("Roslyn") code analyzers analyze your C# or Visual Basic code as you type. Each diagnostic or rule has a default severity and suppression state that can be overwritten for your project. This article covers setting rule severity, using rule sets, and suppressing violations. Runs in the background.
+
+Code Cleanup and EditorConfig 
+	1. Editor config we can generate and change accordingly
+	2. Code cleanup 
+		we can clean the code suppose we have namespaces which are not in use. we can cleanup our code by CTRL+K,CTRL+E at the bottom of the page cleanup icon will be in VS(this is for only single doc) 
+		For entire solution we can just right click on the solution and then click on analyze and code cleanup 
+
+	Note : 
+
+	SLN > Project > Analyzes > Microsoft.CodeQuality.Analyzers(This was old)
+		Now brand new feature is we can do the samething within the editor just right click on the class or anywhere > Configure or Suppress issues >  Configure Severity > [Choose accordingly]. It will also add rule in the .editor config file
+
+Code Analysis Project Properties
+	Right click on the project name > Properties > Code Analysis > Run on live analysis (Check or uncheck to remove the background process for analyzing)
+
+InelliCode
+	
+Test Explorer
+
+Preview Features
+	1. Go To Base
+	2. Add null checks parameter
+	3. XML Comments and inheritance
+
